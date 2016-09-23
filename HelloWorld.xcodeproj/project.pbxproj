@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA11195D1D93E8F90073FE41 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = FA11195C1D93E8F90073FE41 /* Login.png */; };
+		FA11195F1D93E9F00073FE41 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA11195E1D93E9F00073FE41 /* LoginView.xib */; };
 		FA43DEB21D92CE69007FB4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA43DEB11D92CE69007FB4D2 /* AppDelegate.swift */; };
 		FA43DEB41D92CE69007FB4D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA43DEB31D92CE69007FB4D2 /* ViewController.swift */; };
 		FA43DEB71D92CE69007FB4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA43DEB51D92CE69007FB4D2 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA11195C1D93E8F90073FE41 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Login.png; path = ../../../../../../disk/red/Login.png; sourceTree = "<group>"; };
+		FA11195E1D93E9F00073FE41 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		FA43DEAE1D92CE69007FB4D2 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA43DEB11D92CE69007FB4D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA43DEB31D92CE69007FB4D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA11195B1D93E8BD0073FE41 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FA11195C1D93E8F90073FE41 /* Login.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		FA43DEA51D92CE69007FB4D2 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +109,11 @@
 		FA43DEB01D92CE69007FB4D2 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				FA11195B1D93E8BD0073FE41 /* images */,
 				FA43DEB11D92CE69007FB4D2 /* AppDelegate.swift */,
 				FA43DEB31D92CE69007FB4D2 /* ViewController.swift */,
 				FA43DEB51D92CE69007FB4D2 /* Main.storyboard */,
+				FA11195E1D93E9F00073FE41 /* LoginView.xib */,
 				FA43DEB81D92CE69007FB4D2 /* Assets.xcassets */,
 				FA43DEBA1D92CE69007FB4D2 /* LaunchScreen.storyboard */,
 				FA43DEBD1D92CE69007FB4D2 /* Info.plist */,
@@ -230,7 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA43DEBC1D92CE69007FB4D2 /* LaunchScreen.storyboard in Resources */,
+				FA11195D1D93E8F90073FE41 /* Login.png in Resources */,
 				FA43DEB91D92CE69007FB4D2 /* Assets.xcassets in Resources */,
+				FA11195F1D93E9F00073FE41 /* LoginView.xib in Resources */,
 				FA43DEB71D92CE69007FB4D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +500,7 @@
 				FA43DED81D92CE6A007FB4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA43DED91D92CE6A007FB4D2 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +509,7 @@
 				FA43DEDB1D92CE6A007FB4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA43DEDC1D92CE6A007FB4D2 /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +518,7 @@
 				FA43DEDE1D92CE6A007FB4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
